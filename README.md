@@ -1,85 +1,39 @@
-# Streamlit v1.25.0 Cheat Sheet
+# Streamlit Cheat Sheet
 
-Welcome to the **Streamlit v1.25.0 Cheat Sheet** app! This project provides a quick reference to Streamlit’s key features, enabling users to build and optimize their Streamlit applications efficiently.
+An interactive and comprehensive cheat sheet for learning and referencing Streamlit—a Python framework for building data-driven web applications effortlessly. 
+
+This cheat sheet is designed for both beginners and experienced developers who want quick access to key features and examples of Streamlit.
 
 ## Features
 
-### 1. **Text and Data Display**
-- Display static and dynamic text with `st.text()` and `st.markdown()`.
-- Show data using `st.dataframe()` and `st.table()`.
+- **Interactive Examples:** Learn key Streamlit components like `st.write`, `st.sidebar`, and `st.button` through interactive demos.
+- **Code Snippets:** Quick access to frequently used code snippets.
+- **Step-by-Step Guides:** Understand Streamlit layouts, widgets, and integrations in a simple and structured way.
+- **Expandable Sections:** Focus on the sections most relevant to your needs with collapsible content.
 
-### 2. **Interactive Widgets**
-- Build user-friendly interfaces with:
-  - Buttons: `st.button()`
-  - Sliders: `st.slider()`
-  - Text inputs: `st.text_input()`
-  - File uploaders: `st.file_uploader()`
+## How to Use
 
-### 3. **Performance Optimization**
-- Improve app efficiency using:
-  - `@st.cache_data` for caching data.
-  - `@st.cache_resource` for caching expensive computations.
+1. Visit the live application: [Streamlit Cheat Sheet](https://cheat-sheat.streamlit.app/)
+2. Navigate through the sections to find what you need.
+3. Test code snippets and interact with the components live.
+4. Bookmark the app for easy future access.
 
-### 4. **Media Handling**
-- Display multimedia content with:
-  - Images: `st.image()`
-  - Audio: `st.audio()`
-  - Video: `st.video()`
+## Technologies Used
 
-### 5. **Custom Layouts**
-- Organize content with columns, tabs, and containers:
-  - Columns: `st.columns()`
-  - Tabs: `st.tabs()`
-  - Containers: `st.container()`
+- **Streamlit:** To build the interactive app.
+- **Python:** Backend logic and examples.
+- **Markdown:** For clean formatting of code snippets.
 
-### 6. **Sidebar Navigation**
-- Navigate efficiently with:
-  - Quick links to sections.
-  - Installation instructions.
-  - References to official documentation.
+## Why Use This Cheat Sheet?
 
-### 7. **Pre-release Features**
-- Learn how to access experimental Streamlit functionalities.
+- **Quick Reference:** Save time by having all important Streamlit features in one place.
+- **Hands-On Learning:** Interact with the app to understand the components better.
+- **Beginner Friendly:** Easy to navigate, with clear explanations and examples.
 
-## Installation
+## Feedback and Contributions
 
-To run this cheat sheet app, follow these steps:
-
-1. Clone the repository:
-    ```bash
-    git clone <repository_url>
-    cd <repository_name>
-    ```
-
-2. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Run the Streamlit app:
-    ```bash
-    streamlit run app.py
-    ```
-
-## Usage
-
-- Use the sidebar to navigate through the cheat sheet sections.
-- Experiment with widgets to understand their functionality.
-- Refer to caching and performance optimization tips for best practices.
-
-## Contributing
-
-Contributions are welcome! If you have suggestions for improvement or want to add features, feel free to open a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Built using [Streamlit](https://streamlit.io/).
-- Inspired by the official [Streamlit documentation](https://docs.streamlit.io/).
+Feel free to suggest new features, report bugs, or contribute to the project via GitHub. Pull requests are welcome!
 
 ---
 
-Happy Streamliting! 🚀
+Happy coding with Streamlit! 🚀
